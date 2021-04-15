@@ -13,6 +13,10 @@ int main()
     }
 
     address_table[0][2] = 88; // Inserting value to array
+    
+     cout<< address_table[0][2];   // Displaying inserted value
+     
+     // Deallocation
     for(int i = 0; i<rows; i++){
        delete[] address_table[i];  // Deallocation of 1D array
 
