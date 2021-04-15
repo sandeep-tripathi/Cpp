@@ -4,6 +4,7 @@ using namespace std;
 
 // BASE CLASS WITH PRIVATE MEMBERS AND PUBLIC METHOD WITH MEMBERS SHARED WITH DERIVED CLASS AS PROTECTED
 class YouTubeChannel {   // Base class
+//ENCAPSULATION
 private:  //PRIVATE
 	string Name;
 	int SubscribersCount;
